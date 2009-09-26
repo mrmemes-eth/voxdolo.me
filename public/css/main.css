@@ -1,0 +1,104 @@
+/* @override http://localhost:4567/css/main.css */
+
+/*Insert Reset code here*/
+/* @group Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+
+:focus {
+  outline: 0;
+}
+
+body {
+  line-height: 1;
+  color: black;
+  background: white;
+  min-width: 880px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+}
+
+blockquote, q {
+  quotes: "" "";
+}
+/* @end */
+
+body{
+  font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+  background-color: #97a6b3;
+  color: #262d33;
+}
+
+a{
+  color: #2d74b3;
+}
+
+#main{
+  width: 20em;
+  height: 10em;
+  padding: 1em;
+  position: absolute;
+  left: 50%;
+  margin-left: -11em;
+  top: 50%;
+  margin-top: -6em;
+  border: 1px inset #5f707f;
+  background-color: #fff;
+}
+#main h1#name{
+  font-size: 1.5em;
+  font-weight: bold;
+  text-align: center;
+}
+#main p#nomdeplume{
+  text-align: center;
+  margin: 0.5em 0 1em;
+}
+
+#main ul{
+  text-align: center;
+}
+#main ul li{
+  display: inline;
+}
+#main ul li:after {
+  content: '\00b7';
+  font-size: 1.5em;
+}
+#main ul li:last-child:after {
+  visibility: hidden;
+}
